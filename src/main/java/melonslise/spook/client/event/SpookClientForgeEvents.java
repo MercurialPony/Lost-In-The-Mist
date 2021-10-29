@@ -6,6 +6,7 @@ import melonslise.spook.client.misc.AmbienceHandler;
 import melonslise.spook.client.misc.SanityEffectHandler;
 import melonslise.spook.client.misc.VhsEffectHandler;
 import melonslise.spook.client.renderer.shader.ExtendedPostChain;
+import melonslise.spook.client.util.SpookyClientUtil;
 import melonslise.spook.common.init.SpookParticleTypes;
 import melonslise.spook.common.util.SpookyUtil;
 import net.minecraft.client.Minecraft;
@@ -47,7 +48,7 @@ public final class SpookClientForgeEvents
 			{
 				shader.safeGetUniform("GameTime").set(shaderTime);
 
-				shader.safeGetUniform("NoiseIntensity").set(VhsEffectHandler.INSTANCE.wasNearMob() ? 0.0288f : 0.0068f);
+				shader.safeGetUniform("NoiseIntensity").set(VhsEffectHandler.INSTANCE.wasNearMob() ? 0.0148f : 0.0068f);
 
 				shaderChain.process(e.renderTickTime);
 				Minecraft.getInstance().getMainRenderTarget().bindWrite(false);

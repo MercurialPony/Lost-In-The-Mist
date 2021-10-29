@@ -67,7 +67,7 @@ public class VhsEffectHandler
 		{
 			--this.effectTimer;
 
-			if(this.effectTimer == 0 && !this.wasNearMob)
+			if(this.effectTimer == 0)
 			{
 				mc.getSoundManager().stop(STATIC_LOOP);
 				this.resetTimer();
@@ -91,13 +91,16 @@ public class VhsEffectHandler
 		{
 			boolean isNearMob = !mc.level.getEntities(mc.player, mc.player.getBoundingBox().inflate(6d, 3d, 6d), entity -> entity instanceof ITwistedMob).isEmpty();
 
-			if(isNearMob && !this.wasNearMob)
+			if(SpookyUtil.inFogworld(mc.player))
 			{
-				mc.getSoundManager().play(STATIC_LOOP);
-			}
-			else if(!isNearMob && this.wasNearMob)
-			{
-				mc.getSoundManager().stop(STATIC_LOOP);
+				if(isNearMob && !this.wasNearMob)
+				{
+					mc.getSoundManager().play(STATIC_LOOP);
+				}
+				else if(!isNearMob && this.wasNearMob)
+				{
+					mc.getSoundManager().stop(STATIC_LOOP);
+				}
 			}
 
 			this.wasNearMob = isNearMob;
