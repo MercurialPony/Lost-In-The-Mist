@@ -1,0 +1,20 @@
+{
+	"itemGroup.spook": "Lost In The Mist",
+
+	"item.spook.old_book": "Old Book",
+	"item.spook.old_photo_1": "Old Photo",
+	"item.spook.old_photo_2": "Old Photo",
+	"item.spook.old_photo_3": "Old Photo",
+	"item.spook.old_notes": "Old Notes",
+
+	"tooltip.spook.sanity_item": "Memories of days gone by... Eases the mind",
+
+	"subtitle.spook.wobbly_ambience": "Low pitch hum",
+	"subtitle.spook.ghostly_ambience": "Low pitch hum",
+	"subtitle.spook.static_ambience_loop": "Record static",
+	"subtitle.spook.loud_static_loop": "Loud static",
+	"subtitle.spook.scared_breath": "Faint gasp",
+	"subtitle.spook.scared_breath_loop": "Frantic breathing",
+	"subtitle.spook.exhale": "Relieving sigh",
+	"subtitle.spook.page_flip": "Page flips"
+}

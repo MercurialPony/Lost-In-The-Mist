@@ -1,0 +1,29 @@
+{
+	"required": true,
+	"package": "melonslise.spook.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"refmap": "spook.refmap.json",
+	"mixins":
+	[
+		"EntityMixin",
+		"MinecraftServerMixin",
+		"PlayerMixin",
+		"ServerLevelMixin"
+	],
+	"client":
+	[
+		"client.LevelRendererMixin",
+
+		"client.render.CatRendererMixin",
+		"client.render.ChestedHorseRendererMixin",
+		"client.render.ChickenRendererMixin",
+		"client.render.CowRendererMixin",
+		"client.render.HorseRendererMixin",
+		"client.render.MushroomCowRendererMixin",
+		"client.render.PigRendererMixin",
+		"client.render.SheepRendererMixin",
+		"client.render.VillagerRendererMixin",
+		"client.render.WolfRendererMixin"
+	],
+	"minVersion": "0.8.4"
+}

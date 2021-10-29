@@ -1,0 +1,12 @@
+{
+	"type": "spook:sanity_item_adder",
+	"conditions":
+	[
+		{
+			"condition": "forge:loot_table_id",
+			"loot_table_id": "minecraft:chests/village/village_savanna_house"
+		}
+	],
+	"count": 1,
+	"chance": 0.8
+}

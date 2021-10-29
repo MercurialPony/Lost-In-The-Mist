@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="Attribution-NonCommercial 3.0 Unported"
+
+[[mods]]
+modId="spook"
+version="1.0"
+displayName="Lost In The Mist"
+credits="Thanks to FreeSound.org and MMD for hosting SpookyJam as well as helping out as always!"
+authors="Melonslise"
+description='''
+They say those with great darkness in their hearts find themselves wandering a world of mist, suffering for their sins...
+'''

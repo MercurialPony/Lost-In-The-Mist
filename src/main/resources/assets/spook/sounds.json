@@ -1,0 +1,156 @@
+{
+	"wobbly_ambience":
+	{
+		"subtitle": "subtitle.spook.wobbly_ambience",
+		"sounds":
+		[
+			{
+				"name": "spook:wobble"
+			}
+		]
+	},
+	"creepy_ambience":
+	{
+		"subtitle": "subtitle.spook.creepy_ambience",
+		"sounds":
+		[
+			{
+				"name": "spook:scream"
+			},
+			{
+				"name": "spook:horn"
+			},
+			{
+				"name": "spook:moth"
+			}
+		]
+	},
+	"ghostly_ambience":
+	{
+		"subtitle": "subtitle.spook.ghostly_ambience",
+		"sounds":
+		[
+			{
+				"name": "spook:ghost1"
+			},
+			{
+				"name": "spook:ghost2"
+			},
+			{
+				"name": "spook:ghost3"
+			},
+			{
+				"name": "spook:ghost4"
+			}
+		]
+	},
+	"static_ambience_loop":
+	{
+		"subtitle": "subtitle.spook.static_ambience_loop",
+		"sounds":
+		[
+			{
+				"name": "spook:vinyl_static"
+			}
+		]
+	},
+	"loud_static_ambience_loop":
+	{
+		"subtitle": "subtitle.spook.loud_static_ambience_loop",
+		"sounds":
+		[
+			{
+				"name": "spook:loud_static"
+			}
+		]
+	},
+	"scared_breath":
+	{
+		"subtitle": "subtitle.spook.scared_breath",
+		"sounds":
+		[
+			{
+				"name": "spook:scared_breath_1"
+			},
+			{
+				"name": "spook:scared_breath_2"
+			},
+			{
+				"name": "spook:scared_breath_3"
+			}
+		]
+	},
+	"scared_breath_loop":
+	{
+		"subtitle": "subtitle.spook.scared_breath_loop",
+		"sounds":
+		[
+			{
+				"name": "spook:scared_breath_loop"
+			}
+		]
+	},
+	"exhale":
+	{
+		"subtitle": "subtitle.spook.exhale",
+		"sounds":
+		[
+			{
+				"name": "spook:exhale_1"
+			},
+			{
+				"name": "spook:exhale_2"
+			},
+			{
+				"name": "spook:exhale_3"
+			},
+			{
+				"name": "spook:exhale_4"
+			}
+		]
+	},
+	"page_flip":
+	{
+		"subtitle": "subtitle.spook.page_flip",
+		"sounds":
+		[
+			{
+				"name": "spook:page_flip_1"
+			},
+			{
+				"name": "spook:page_flip_2"
+			},
+			{
+				"name": "spook:page_flip_3"
+			}
+		]
+	},
+	"siren":
+	{
+		"subtitle": "subtitle.spook.siren",
+		"sounds":
+		[
+			{
+				"name": "spook:siren"
+			}
+		]
+	},
+	"long_ambience":
+	{
+		"sounds":
+		[
+			{
+				"name": "spook:long_ambience_1",
+				"stream": true
+			},
+			{
+				"name": "spook:long_ambience_2",
+				"stream": true
+			},
+			{
+				"name": "spook:long_ambience_3",
+				"stream": true
+			}
+		]
+	}
+}

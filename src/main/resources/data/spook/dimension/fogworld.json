@@ -1,0 +1,8 @@
+{
+	"type": "spook:fogworld",
+	"generator":
+	{
+		"type": "spook:copy",
+		"dimension": "minecraft:overworld"
+	}
+}

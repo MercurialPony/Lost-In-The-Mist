@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"entries":
+	[
+		"spook:igloo_chest",
+		"spook:stronghold_library",
+		"spook:village_desert_house",
+		"spook:village_plains_house",
+		"spook:village_savanna_house",
+		"spook:village_snowy_house",
+		"spook:village_taiga_house",
+		"spook:woodland_mansion"
+	]
+}
