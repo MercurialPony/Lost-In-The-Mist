@@ -1,11 +1,14 @@
 modLoader="javafml"
 loaderVersion="[37,)"
 license="Attribution-NonCommercial 3.0 Unported"
+issueTrackerURL="https://github.com/Melonslise/Lost-In-The-Mist/issues"
 
 [[mods]]
 modId="spook"
-version="1.0.1"
+version="1.0.2"
 displayName="Lost In The Mist"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/lost-in-the-mist"
+logoFile="logo.png"
 credits="Thanks to FreeSound.org and MMD for hosting SpookyJam as well as helping out as always!"
 authors="Melonslise"
 description='''

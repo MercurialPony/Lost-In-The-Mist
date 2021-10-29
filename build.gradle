@@ -15,7 +15,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0.1'
+version = '1.0.2'
 group = 'melonslise.spook'
 archivesBaseName = 'spook'
 
@@ -74,7 +74,7 @@ minecraft {
 }
 
 mixin {
-	add sourceSets.main, "spacetest.refmap.json"
+	add sourceSets.main, "spook.refmap.json"
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
