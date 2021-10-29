@@ -1,6 +1,5 @@
-# Lost-In-The-Mist
-
 # [![](http://cf.way2muchnoise.eu/full_lost-in-the-mist_downloads.svg)](https://minecraft.curseforge.com/projects/lost-in-the-mist) [![](http://cf.way2muchnoise.eu/versions/lost-in-the-mist.svg)](https://minecraft.curseforge.com/projects/lost-in-the-mist)
+![](https://i.imgur.com/SqghQ5c.png)
 
 Created for SpookyJam 2021
 
