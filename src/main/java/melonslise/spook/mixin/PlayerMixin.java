@@ -25,17 +25,11 @@ public class PlayerMixin
 		method = "tick()V")
 	private void tick(CallbackInfo ci)
 	{
-		if((Object) this instanceof ServerPlayer player)
+		if((Object) this instanceof ServerPlayer player && player.getSleepTimer() == 100 && FogworldHandler.tryUpdate(player))
 		{
-			if(player.getSleepTimer() == 100)
-			{
-				if(FogworldHandler.tryUpdate(player))
-				{
-					// prevent ticking entity crash
-					SpookForgeEvents.END_OF_TICK_ACTIONS.add(() ->
-						player.teleportTo(player.server.getLevel(SpookDimensionKeys.FOGWORLD), player.getX(), player.getY(), player.getZ(), player.getYRot(), player.getXRot()));
-				}
-			}
+			// prevent ticking entity crash
+			SpookForgeEvents.END_OF_TICK_ACTIONS.add(() ->
+				player.teleportTo(player.server.getLevel(SpookDimensionKeys.FOGWORLD), player.getX(), player.getY(), player.getZ(), player.getYRot(), player.getXRot()));
 		}
 	}
 }

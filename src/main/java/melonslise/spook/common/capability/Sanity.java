@@ -1,7 +1,9 @@
 package melonslise.spook.common.capability;
 
 import melonslise.spook.SpookMod;
+import melonslise.spook.common.event.FogworldHandler;
 import melonslise.spook.common.init.SpookCapabilities;
+import melonslise.spook.common.init.SpookDimensionKeys;
 import melonslise.spook.common.init.SpookNetwork;
 import melonslise.spook.common.network.toclient.UpdateSanityPacket;
 import melonslise.spook.common.util.SpookyUtil;
@@ -43,6 +45,10 @@ public class Sanity implements ISanity
 			if(this.sanity > 90f && SpookyUtil.inFogworld(this.player))
 			{
 				player.teleportTo(player.server.getLevel(Level.OVERWORLD), player.getX(), player.getY(), player.getZ(), player.getYRot(), player.getXRot());
+			}
+			else if(this.sanity == 0f && FogworldHandler.tryUpdate(player))
+			{
+				player.teleportTo(player.server.getLevel(SpookDimensionKeys.FOGWORLD), player.getX(), player.getY(), player.getZ(), player.getYRot(), player.getXRot());
 			}
 			else
 			{
