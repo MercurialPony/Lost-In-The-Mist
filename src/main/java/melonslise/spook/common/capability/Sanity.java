@@ -40,7 +40,7 @@ public class Sanity implements ISanity
 
 		if(oldSanity != this.sanity && this.player instanceof ServerPlayer player)
 		{
-			if(this.sanity > 90f)
+			if(this.sanity > 90f && this.player.level.dimension().toString().contains("spook:fogworld"))
 			{
 				player.teleportTo(player.server.getLevel(Level.OVERWORLD), player.getX(), player.getY(), player.getZ(), player.getYRot(), player.getXRot());
 			}
